@@ -19,12 +19,9 @@ public class Main {
             aux = vetor[posicao_menor];
             vetor[posicao_menor] = vetor[i];
             vetor[i] = aux;
-
         }
         System.out.println("Algoritmo ordenado");
-
         for(int i= 0; i < vetor.length; i ++ ){
             System.out.println(vetor[i]);
-
     }}
 }
